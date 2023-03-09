@@ -259,7 +259,7 @@
   }
   
   /*      Responsive     */
-  @media only screen and (max-width: 775px) {
+  @media only screen and (max-width: 768px) {
     header {
       font-size: 1.5rem;
     }
@@ -297,3 +297,7 @@
     }
 
   }
+
+@media only screen and (max-width: 576px) {
+  
+}
