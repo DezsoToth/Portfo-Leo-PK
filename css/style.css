@@ -259,6 +259,11 @@ footer {
 }
 
 /*      Responsive     */
+
+@media only screen and (max-width: 992px) {
+  
+}
+
 @media only screen and (max-width: 768px) {
   header {
     font-size: 1.5rem;
@@ -289,11 +294,10 @@ footer {
   .project-list {
     flex-direction: column;
     align-items: center;
-    
   }
 
   .project-container {
-    width: 25%;
+    width: 70%;
     margin: 20px 2%;
     padding: 1rem;
     border: 1px solid var(--hover-input-color​);
