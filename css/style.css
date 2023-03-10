@@ -261,7 +261,12 @@ footer {
 /*      Responsive     */
 
 @media only screen and (max-width: 992px) {
-  
+  .project-container {
+    width: 45%;
+    margin: 20px 2%;
+    padding: 1rem;
+    border: 1px solid var(--hover-input-color​);
+  }
 }
 
 @media only screen and (max-width: 768px) {
