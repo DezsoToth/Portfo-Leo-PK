@@ -311,6 +311,10 @@ footer {
     border: 1px solid var(--hover-input-color​);
   }
 
+  form {
+    width: 80%;
+  }
+
   footer {
       font-size: 1.2rem;
       margin: 2rem 0;
