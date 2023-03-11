@@ -79,6 +79,11 @@ h1 {
   animation: myanimation 3s linear infinite;
 }
 
+.box2 {
+  position: relative;
+  animation: myanimation 2s linear infinite;
+}
+
 @keyframes myanimation {
   0% {
     text-shadow: 4px 4px 6px var(--main-input-color​),
