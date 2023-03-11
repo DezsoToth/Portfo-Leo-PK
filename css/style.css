@@ -76,7 +76,7 @@ h1 {
 
 .box1 {
   position: relative;
-  animation: myanimation 3s linear infinite;
+  animation: myanimation 5s linear infinite;
 }
 
 .box2 {
@@ -86,16 +86,16 @@ h1 {
 
 @keyframes myanimation {
   0% {
-    text-shadow: 4px 4px 6px var(--main-input-color​),
-      -4px -4px 5px var(--main-input-color​);
+    text-shadow: 8px 8px 15px var(--main-input-color​),
+      -8px -8px 15px var(--main-input-color​);
   }
   50% {
-    text-shadow: 4px 4px 6px var(--hover-input-color​​),
-      -4px -4px 5px var(--hover-input-color​);
+    text-shadow: 8px 8px 15px var(--hover-input-color​​),
+      -8px -8px 15px var(--hover-input-color​);
   }
   100% {
-    text-shadow: 4px 4px 6px var(--main-input-color​),
-      -4px -4px 5px var(--main-input-color​);
+    text-shadow: 8px 8px 15px var(--main-input-color​),
+      -8px -8px 15px var(--main-input-color​);
   }
 }
 
