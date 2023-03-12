@@ -84,6 +84,26 @@ h1 {
   animation: myanimation 2s linear infinite;
 }
 
+.box3 {
+  position: relative;
+  animation: myanimation 3s linear infinite;
+}
+
+.box4 {
+  position: relative;
+  animation: myanimation 2.5s linear infinite;
+}
+
+.box5 {
+  position: relative;
+  animation: myanimation 3.5s linear infinite;
+}
+
+.box6 {
+  position: relative;
+  animation: myanimation 2.2s linear infinite;
+}
+
 @keyframes myanimation {
   0% {
     text-shadow: 8px 8px 15px var(--main-input-color​),
