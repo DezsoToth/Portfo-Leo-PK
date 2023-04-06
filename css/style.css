@@ -37,7 +37,6 @@ header {
   font-size: 2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/night.jpg);
-  background-position: top;  
   height: 100vh;
   min-width: var(--main-page-max-width​);
   background-size: cover;
@@ -301,6 +300,7 @@ footer {
 @media only screen and (max-width: 768px) {
   header {
     font-size: 1.5rem;
+    height: 70vh;
   }
   .header-nav {
     flex-direction: column;
