@@ -259,7 +259,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
-  margin: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -267,7 +267,7 @@ footer {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 
 .footer-links a {
