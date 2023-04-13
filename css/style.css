@@ -216,10 +216,16 @@ section h2 {
   margin: 20px 2%;
   padding: 1rem;
   border: 1px solid var(--hover-input-color​);
+  overflow: hidden;
 }
 
 .project__img {
   width: 100%;
+  transition: .5s;
+}
+
+.project__img:hover {
+  transform: scale(1.05);
 }
 
 .kapcsolat {
@@ -285,6 +291,45 @@ footer {
   border-bottom: 2px solid whitesmoke;
 }
 
+.footer-copyright-social {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 40px 0;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright p {
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.copyright {
+  color: white;
+  font-size: .8rem;
+}
+
+.social {
+  display: flex;
+}
+
+.social > a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  color: white;
+  transition: .5s;
+}
+
+.social > a:hover {
+  color: lightslategray;
+}
+
+
 .poweredbydtp {
   display: flex;
   justify-content: center;
@@ -340,7 +385,25 @@ footer {
 @media only screen and (max-width: 768px) {
   header {
     font-size: 1.5rem;
-    height: 70vh;
+    height: 100vh;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tagline {
+    margin: 5rem 0;
+  }
+
+  .tagline a {
+    margin: 2rem 0;
+  }
+
+  h1 {
+    font-size: 4rem;
   }
   .header-nav {
     flex-direction: column;
