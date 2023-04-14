@@ -83,7 +83,7 @@ h1 {
 
 .box2 {
   position: relative;
-  animation: myanimation 2s linear infinite;
+  animation: myanimation 2.1s linear infinite;
 }
 
 .box3 {
@@ -93,17 +93,17 @@ h1 {
 
 .box4 {
   position: relative;
-  animation: myanimation 2.5s linear infinite;
+  animation: myanimation 2.4s linear infinite;
 }
 
 .box5 {
   position: relative;
-  animation: myanimation 3.5s linear infinite;
+  animation: myanimation 3.6s linear infinite;
 }
 
 .box6 {
   position: relative;
-  animation: myanimation 2.2s linear infinite;
+  animation: myanimation 2.3s linear infinite;
 }
 
 @keyframes myanimation {
