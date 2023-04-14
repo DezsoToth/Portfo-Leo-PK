@@ -320,6 +320,7 @@ footer {
 .social > a {
   text-decoration: none;
   padding: 10px;
+  font-size: 2rem;
   margin: 0 5px;
   color: white;
   transition: .5s;
