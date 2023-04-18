@@ -331,6 +331,31 @@ footer {
 }
 
 
+.footer-back a {
+  border: 2px solid var(--dark-background-font-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: var(--light-background-font-color);
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  z-index: 15;
+  transition: .3s;
+  box-shadow: 0px 0px 15px black;
+  background: var(--dark-background-font-color);
+  transition: .3s;
+}
+
+.footer-back a:hover {
+  box-shadow: 0 0 15px #e97c00;
+}
+
+
 .poweredbydtp {
   display: flex;
   justify-content: center;
